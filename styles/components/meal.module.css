@@ -1,0 +1,32 @@
+
+
+.mealContainer {
+    font-family: Helvetica, serif;
+    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    height: 90px;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #E9E9E9;
+    padding: 7px;
+    margin-top: 22px;
+}
+
+.mealContainer .mealName {
+
+}
+
+.mealContainer .draggablePattern {
+    font-family: Helvetica, serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color: #C4C4C4;
+    color: #ffff;
+}
+
+.mealContainer button {
+    align-self: flex-end;
+}
