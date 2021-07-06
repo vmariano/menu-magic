@@ -2,5 +2,93 @@
   {
     "id": 1,
     "content": "Guiso de lentejas"
+  },
+  {
+    "id": 2,
+    "content": "Tortilla de papa con ensalada"
+  },
+  {
+    "id": 3,
+    "content": "Milanesa de berenjena con pure"
+  },
+  {
+    "id": 4,
+    "content": "Agnolottis de ricota c/ salsa 4 quesos"
+  },
+  {
+    "id": 5,
+    "content": "Tarta de verdura"
+  },
+  {
+    "id": 6,
+    "content": "Fajitas de verdura"
+  },
+  {
+    "id": 7,
+    "content": "Risotto"
+  },
+  {
+    "id": 8,
+    "content": "Sopa crema de calabaza"
+  },
+  {
+    "id": 9,
+    "content": "Polenta"
+  },
+  {
+    "id": 10,
+    "content": "Patitas de pollo"
+  },
+  {
+    "id": 11,
+    "content": "Fideos con Mariscos"
+  },
+  {
+    "id": 12,
+    "content": "Salmon a la plancha con verduras"
+  },
+  {
+    "id": 13,
+    "content": "Ramen"
+  },
+  {
+    "id": 14,
+    "content": "Pollo peruano (roaster)"
+  },
+  {
+    "id": 15,
+    "content": "Pastel de papas"
+  },
+  {
+    "id": 16,
+    "content": "Goulash"
+  },
+  {
+    "id": 17,
+    "content": "Milanesas con pure"
+  },
+  {
+    "id": 18,
+    "content": "Brochette de carne"
+  },
+  {
+    "id": 19,
+    "content": "Brochette de Pollo"
+  },
+  {
+    "id": 18,
+    "content": "Brochette de carne"
+  },
+  {
+    "id": 19,
+    "content": "Salchicha alemana con pure"
+  },
+  {
+    "id": 20,
+    "content": "Sopa crema de cebolla"
+  },
+  {
+    "id": 21,
+    "content": "Tarta de choclo"
   }
 ]
