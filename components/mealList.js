@@ -7,7 +7,7 @@ const randomizeMenu = (list) => {
         sampleList.push(list[Math.floor(Math.random() * list.length)]);
     }
     return sampleList.map((meal) => {
-        return (<Meal key={meal.id}>{meal.content}</Meal>);
+        return (<Meal key={meal.id} list={list}>{meal.content}</Meal>);
     });
 }
 
