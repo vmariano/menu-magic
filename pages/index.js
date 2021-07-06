@@ -15,6 +15,14 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
+          <div className={styles.days}>
+              <h2></h2>
+              <h2>Lunes</h2>
+              <h2>Martes</h2>
+              <h2>Miercoles</h2>
+              <h2>Jueves</h2>
+              <h2>Viernes</h2>
+          </div>
           <MealList title="🥪Almuerzo" list={easyList} />
           <MealList title="🍲Cena" list={complexList} />
         </main>
