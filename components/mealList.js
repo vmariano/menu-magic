@@ -1,4 +1,5 @@
 import Meal from "./meal";
+import styles from '../styles/components/mealList.module.css'
 
 const randomizeMenu = (list) => {
     let sampleList = [];
@@ -13,7 +14,7 @@ const randomizeMenu = (list) => {
 
 export default function mealList({title, list}) {
     return (
-        <div>
+        <div className={styles.mealList}>
             <h1>{title}</h1>
             {randomizeMenu(list)}
         </div>
