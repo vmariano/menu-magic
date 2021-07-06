@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import MealList from "../components/mealList";
+import easyList from "../data/easy.json"
+import complexList from "../data/complex.json"
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
         </Head>
 
         <main className={styles.main}>
-          <MealList title="🥪Almuerzo" easy={true} />
-          <MealList title="🍲Cena" easy={false} />
+          <MealList title="🥪Almuerzo" list={easyList} />
+          <MealList title="🍲Cena" list={complexList} />
         </main>
 
         <footer className={styles.footer}>

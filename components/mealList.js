@@ -1,10 +1,12 @@
 import Meal from "./meal";
 
-export default function mealList({title}) {
+export default function mealList({title, list}) {
     return (
         <div>
             <h1>{title}</h1>
-            <Meal>Guiso de lentejas</Meal>
+            {list.map((meal) => {
+                return (<Meal key={meal.id}>{meal.content}</Meal>);
+            })}
         </div>
     );
 }
