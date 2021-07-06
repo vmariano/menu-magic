@@ -17,70 +17,62 @@
   },
   {
     "id": 5,
-    "content": "Sandiwchs de fiambre"
+    "content": "Sandwiches de fiambre"
   },
   {
     "id": 6,
-    "content": "Sandiwchs de fiambre"
-  },
-  {
-    "id": 7,
     "content": "Verduras salteadas con arroz"
   },
   {
-    "id": 8,
-    "content": "Sandiwchs de fiambre"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "content": "Omellette con ensalada"
   },
   {
-    "id": 10,
+    "id": 8,
     "content": "Gyozas y verduras al vapor"
   },
   {
-    "id": 11,
+    "id": 9,
     "content": "Fideos con pesto"
   },
   {
-    "id": 12,
+    "id": 10,
     "content": "Ravioles con filletto"
   },
   {
-    "id": 13,
+    "id": 11,
     "content": "Ensalada de atun"
   },
   {
-    "id": 14,
+    "id": 12,
     "content": "Ensalada Cesar"
   },
   {
-    "id": 15,
+    "id": 13,
     "content": "Merluza y papas al vapor"
   },
   {
-    "id": 16,
+    "id": 14,
     "content": "Empanadas "
   },
   {
-    "id": 17,
+    "id": 15,
     "content": "Tarta de acelga"
   },
   {
-    "id": 18,
+    "id": 16,
     "content": "Pizza"
   },
   {
-    "id": 19,
-    "content": "Sandiwchs de vegetales asados con queso"
+    "id": 17,
+    "content": "Sandwiches de vegetales asados con queso"
   },
   {
-    "id": 20,
+    "id": 18,
     "content": "Calabaza rellena"
   },
   {
-    "id": 21,
+    "id": 19,
     "content": "Entraña con ensalada"
   }
 ]
