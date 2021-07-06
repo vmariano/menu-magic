@@ -6,5 +6,81 @@
   {
     "id": 2,
     "content": "Milanesas con ensalada"
+  },
+  {
+    "id": 3,
+    "content": "Ensalada con quinoa"
+  },
+  {
+    "id": 4,
+    "content": "Medallon de garbanzos con pure"
+  },
+  {
+    "id": 5,
+    "content": "Sandiwchs de fiambre"
+  },
+  {
+    "id": 6,
+    "content": "Sandiwchs de fiambre"
+  },
+  {
+    "id": 7,
+    "content": "Verduras salteadas con arroz"
+  },
+  {
+    "id": 8,
+    "content": "Sandiwchs de fiambre"
+  },
+  {
+    "id": 9,
+    "content": "Omellette con ensalada"
+  },
+  {
+    "id": 10,
+    "content": "Gyozas y verduras al vapor"
+  },
+  {
+    "id": 11,
+    "content": "Fideos con pesto"
+  },
+  {
+    "id": 12,
+    "content": "Ravioles con filletto"
+  },
+  {
+    "id": 13,
+    "content": "Ensalada de atun"
+  },
+  {
+    "id": 14,
+    "content": "Ensalada Cesar"
+  },
+  {
+    "id": 15,
+    "content": "Merluza y papas al vapor"
+  },
+  {
+    "id": 16,
+    "content": "Empanadas "
+  },
+  {
+    "id": 17,
+    "content": "Tarta de acelga"
+  },
+  {
+    "id": 18,
+    "content": "Pizza"
+  },
+  {
+    "id": 19,
+    "content": "Sandiwchs de vegetales asados con queso"
+  },
+  {
+    "id": 20,
+    "content": "Tarta de choclo"
+  },
+  {
+    "id": 21,
+    "content": "Calabaza rellena"
   }
 ]
