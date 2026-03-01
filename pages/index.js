@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import MealList from "../components/mealList";
+import MealList from "../components/MealList";
 import easyList from "../data/easy.json"
 import complexList from "../data/complex.json"
 
