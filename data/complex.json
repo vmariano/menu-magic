@@ -76,14 +76,6 @@
     "content": "Brochette de Pollo"
   },
   {
-    "id": 18,
-    "content": "Brochette de carne"
-  },
-  {
-    "id": 19,
-    "content": "Salchicha alemana con pure"
-  },
-  {
     "id": 20,
     "content": "Sopa crema de cebolla"
   },
@@ -134,5 +126,9 @@
   {
     "id": 32,
     "content": "Hamburguesas delivery! (con aros de cebolla)"
+  },
+  {
+    "id": 33,
+    "content": "Salchicha alemana con pure"
   }
 ]

@@ -1,3 +1,5 @@
+"use client";
+
 import styles from '../styles/components/meal.module.css'
 import {useState} from "react";
 
