@@ -6,13 +6,16 @@ Menu Magic is a React-based application built with Next.js for planning and rand
 
 - **Purpose**: To help users decide what to eat by randomizing lunch and dinner options from predefined lists.
 - **Main Technologies**:
-  - [Next.js](https://nextjs.org/) (version 11.0.1)
-  - [React](https://reactjs.org/) (version 17.0.2)
+  - [Next.js](https://nextjs.org/) (version 16.1.6)
+  - [React](https://reactjs.org/) (version 19.0.0)
+  - Turbopack (stable)
   - CSS Modules for component-level styling.
 - **Architecture**:
-  - `pages/index.js`: The main dashboard displaying the 5-day grid.
-  - `components/mealList.js`: A component that randomizes 5 meals from a given list for the week.
-  - `components/meal.js`: Represents a single meal entry, allowing the user to "reroll" (🎲) to pick a different random meal from the list.
+  - `app/layout.js`: The root layout for the application.
+  - `app/page.js`: The main dashboard displaying the 5-day grid.
+  - `app/api/hello/route.js`: A simple API endpoint demonstrating the App Router route handlers.
+  - `components/mealList.js`: A Client Component that randomizes 5 meals from a given list for the week.
+  - `components/meal.js`: A Client Component that represents a single meal entry, allowing the user to "reroll" (🎲) to pick a different random meal from the list.
   - `data/`: Contains `easy.json` (used for lunch) and `complex.json` (used for dinner).
 
 ## Building and Running

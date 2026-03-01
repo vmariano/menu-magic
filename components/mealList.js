@@ -1,3 +1,5 @@
+"use client";
+
 import Meal from "./meal";
 import styles from '../styles/components/mealList.module.css'
 
