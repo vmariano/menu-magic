@@ -76,36 +76,28 @@
     "content": "Brochette de Pollo"
   },
   {
-    "id": 18,
-    "content": "Brochette de carne"
-  },
-  {
-    "id": 19,
+    "id": 20,
     "content": "Salchicha alemana con pure"
   },
   {
-    "id": 20,
+    "id": 21,
     "content": "Sopa crema de cebolla"
   },
   {
-    "id": 21,
+    "id": 22,
     "content": "Tarta de choclo"
   },
   {
-    "id": 22,
+    "id": 23,
     "content": "Hamburguesas caseras"
   },
   {
-    "id": 23,
+    "id": 24,
     "content": "Risotto de hongos"
   },
   {
-    "id": 24,
-    "content": "Sopa de verduras"
-  },
-  {
     "id": 25,
-    "content": "Milanesas con ensalada"
+    "content": "Sopa de verduras"
   },
   {
     "id": 26,
@@ -113,26 +105,14 @@
   },
   {
     "id": 27,
-    "content": "Empanadas"
-  },
-  {
-    "id": 28,
-    "content": "Tostado de queso con ensalada"
-  },
-  {
-    "id": 29,
-    "content": "Tarta de acelga"
-  },
-  {
-    "id": 30,
     "content": "Omelette"
   },
   {
-    "id": 31,
+    "id": 28,
     "content": "Medallones de verduras con ensalada"
   },
   {
-    "id": 32,
+    "id": 29,
     "content": "Hamburguesas delivery! (con aros de cebolla)"
   }
 ]

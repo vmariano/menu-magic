@@ -53,7 +53,7 @@
   },
   {
     "id": 14,
-    "content": "Empanadas "
+    "content": "Empanadas"
   },
   {
     "id": 15,
@@ -76,40 +76,39 @@
     "content": "Entraña con ensalada"
   },
   {
-    "id":20,
+    "id": 20,
     "content": "Verduras al horno"
   },
   {
-    "id":21,
+    "id": 21,
     "content": "Domplins a la vaporiera"
   },
   {
-    "id":22,
+    "id": 22,
     "content": "Arroz con toppings y queso"
   },
   {
-    "id":23,
+    "id": 23,
     "content": "Capeletinis con queso y manteca"
   },
   {
-    "id":24,
+    "id": 24,
     "content": "Panache de verduras al vapor"
   },
   {
-    "id":25,
+    "id": 25,
     "content": "Tostado de queso con ensalada"
   },
   {
-    "id":26,
+    "id": 26,
     "content": "Salmon al vapor con verduras"
   },
-    {
-    "id":27,
+  {
+    "id": 27,
     "content": "Shawarma"
   },
-      {
-    "id":28,
-    "content": "Poke "
+  {
+    "id": 28,
+    "content": "Poke"
   }
-
 ]
