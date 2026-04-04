@@ -1,6 +1,6 @@
 "use client";
 
-import Meal from "./meal";
+import Meal from "./Meal";
 import styles from '../styles/components/mealList.module.css'
 
 const randomizeMenu = (list) => {
@@ -14,7 +14,7 @@ const randomizeMenu = (list) => {
     });
 }
 
-export default function mealList({title, list}) {
+export default function MealList({title, list}) {
     return (
         <div className={styles.mealList}>
             <h1>{title}</h1>
