@@ -1,6 +1,6 @@
 "use client";
 
-import Meal from "./Meal";
+import MealItem from "./MealItem.js";
 import styles from '../styles/components/mealList.module.css'
 
 const randomizeMenu = (list) => {
@@ -10,7 +10,7 @@ const randomizeMenu = (list) => {
         sampleList.push(list[Math.floor(Math.random() * list.length)]);
     }
     return sampleList.map((meal) => {
-        return (<Meal key={meal.id} list={list}>{meal.content}</Meal>);
+        return (<MealItem key={meal.id} list={list}>{meal.content}</MealItem>);
     });
 }
 
