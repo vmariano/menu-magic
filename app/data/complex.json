@@ -113,10 +113,98 @@
   },
   {
     "id": 29,
-    "content": "Hamburguesas delivery! (con aros de cebolla)"
+    "content": "Delivery"
   },
   {
     "id": 33,
     "content": "Salchicha alemana con pure"
+  },
+  {
+    "id": 35,
+    "content": "Causa"
+  },
+  {
+    "id": 36,
+    "content": "Pastel de papa"
+  },
+  {
+    "id": 37,
+    "content": "Brochettes con ensalada"
+  },
+  {
+    "id": 38,
+    "content": "Sopa Crema de verduras"
+  },
+  {
+    "id": 39,
+    "content": "Milanesas de soja"
+  },
+  {
+    "id": 40,
+    "content": "Rapiditas de atun y verdura"
+  },
+  {
+    "id": 41,
+    "content": "Ensalada de atun"
+  },
+  {
+    "id": 42,
+    "content": "Sanguches de Atun"
+  },
+  {
+    "id": 43,
+    "content": "Sanguches de vegetales"
+  },
+  {
+    "id": 44,
+    "content": "Pollo marinado con ensalada"
+  },
+  {
+    "id": 45,
+    "content": "Bife marinado con tabule"
+  },
+  {
+    "id": 46,
+    "content": "Tallarines con salsa"
+  },
+  {
+    "id": 47,
+    "content": "Tarta de jamón y queso"
+  },
+  {
+    "id": 48,
+    "content": "Patitas de pollo con ensalada"
+  },
+  {
+    "id": 49,
+    "content": "Milanesas con pure de coliflor"
+  },
+  {
+    "id": 50,
+    "content": "Risotto de quinoa"
+  },
+  {
+    "id": 51,
+    "content": "Arroz salteado"
+  },
+  {
+    "id": 52,
+    "content": "Musaka vegetariana"
+  },
+  {
+    "id": 53,
+    "content": "Pollo al Horno con ensalada"
+  },
+  {
+    "id": 54,
+    "content": "Chipa guazu con ensalada"
+  },
+  {
+    "id": 55,
+    "content": "Carne al horno con pure de zapallo"
+  },
+  {
+    "id": 56,
+    "content": "Pescado con verduras al vapor"
   }
 ]
