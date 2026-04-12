@@ -1,37 +1,29 @@
-import Image from "next/image";
-import styles from  "@/app/styles/Home.module.css"
-import MealList from "@/app/components/MealList";
-import easyList from "@/app/data/easy.json";
-import complexList from "@/app/data/complex.json";
+"use client";
+
+import { useState } from "react";
+import { Header } from "@/app/components/Header";
+import { WeeklyMenu } from "@/app/components/WeeklyMenu";
+import { ShoppingList } from "@/app/components/ShoppingList";
+import { WeeklyMeal, Meal } from "@/app/types/meal";
+import mealsData from "@/app/data/meals.json";
+
+const meals: Meal[] = mealsData;
 
 export default function Home() {
-  return (
-      <div className={styles.container}>
-        <main className={styles.main}>
-          <div className={styles.days}>
-            <h2></h2>
-            <h2>Lunes</h2>
-            <h2>Martes</h2>
-            <h2>Miercoles</h2>
-            <h2>Jueves</h2>
-            <h2>Viernes</h2>
-          </div>
-          <MealList title="🥪Almuerzo" list={easyList} />
-          <MealList title="🍲Cena" list={complexList} />
-        </main>
+  const [weeklyMeals, setWeeklyMeals] = useState<WeeklyMeal[]>([]);
 
-        <footer className={styles.footer}>
-          <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-          </a>
-        </footer>
-      </div>
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main className="container mx-auto px-4 py-8 space-y-8">
+        <WeeklyMenu meals={meals} onMealsChange={setWeeklyMeals} />
+        <ShoppingList weeklyMeals={weeklyMeals} />
+      </main>
+      <footer className="border-t border-border py-6 mt-auto">
+        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
+          Menu Magic - Planifica tus comidas semanales
+        </div>
+      </footer>
+    </div>
   );
 }

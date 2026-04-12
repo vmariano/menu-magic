@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Guiso de lentejas",
+    "recipe": "1. Remojar las lentejas 2 horas. 2. Sofreir cebolla, ajo, zanahoria y pimiento. 3. Agregar las lentejas y cubrir con caldo. 4. Cocinar a fuego lento 40 minutos. 5. Agregar papa y cocinar 15 minutos mas.",
+    "ingredients": ["lentejas", "cebolla", "ajo", "zanahoria", "pimiento rojo", "papa", "caldo de verduras", "laurel", "comino", "pimenton"]
+  },
+  {
+    "id": 2,
+    "name": "Tortilla de papa con ensalada",
+    "recipe": "1. Cortar papas en rodajas finas. 2. Freir las papas con cebolla a fuego medio. 3. Batir los huevos con sal. 4. Mezclar papas con huevos. 5. Cocinar en sarten hasta dorar ambos lados.",
+    "ingredients": ["papa", "huevos", "cebolla", "aceite de oliva", "sal", "lechuga", "tomate", "vinagre"]
+  },
+  {
+    "id": 3,
+    "name": "Milanesa de berenjena con pure",
+    "recipe": "1. Cortar berenjenas en rodajas. 2. Pasar por harina, huevo y pan rallado. 3. Freir hasta dorar. 4. Hervir papas y hacer pure con manteca y leche.",
+    "ingredients": ["berenjena", "huevos", "pan rallado", "harina", "papa", "manteca", "leche", "sal", "aceite"]
+  },
+  {
+    "id": 4,
+    "name": "Agnolottis de ricota con salsa 4 quesos",
+    "recipe": "1. Hervir los agnolottis en agua con sal. 2. Derretir manteca y agregar crema. 3. Incorporar quesos rallados y revolver hasta fundir. 4. Mezclar con la pasta.",
+    "ingredients": ["agnolottis de ricota", "crema de leche", "queso parmesano", "queso fontina", "queso gruyere", "queso azul", "manteca", "pimienta"]
+  },
+  {
+    "id": 5,
+    "name": "Tarta de verdura",
+    "recipe": "1. Saltear acelga, espinaca y cebolla. 2. Mezclar con huevos batidos y queso. 3. Forrar molde con masa. 4. Rellenar y hornear 35 minutos a 180C.",
+    "ingredients": ["masa de tarta", "acelga", "espinaca", "cebolla", "huevos", "queso cremoso", "sal", "pimienta", "nuez moscada"]
+  },
+  {
+    "id": 6,
+    "name": "Fajitas de verdura",
+    "recipe": "1. Cortar pimiento, cebolla y champinones en tiras. 2. Saltear con especias. 3. Calentar tortillas. 4. Servir con guacamole y crema.",
+    "ingredients": ["tortillas de trigo", "pimiento rojo", "pimiento verde", "cebolla", "champinones", "palta", "crema agria", "limon", "comino", "cilantro"]
+  },
+  {
+    "id": 7,
+    "name": "Risotto de hongos",
+    "recipe": "1. Saltear cebolla y ajo. 2. Agregar arroz arborio y tostar. 3. Incorporar vino blanco. 4. Agregar caldo caliente de a poco. 5. Agregar hongos salteados y parmesano.",
+    "ingredients": ["arroz arborio", "hongos portobello", "hongos shiitake", "cebolla", "ajo", "vino blanco", "caldo de verduras", "queso parmesano", "manteca"]
+  },
+  {
+    "id": 8,
+    "name": "Sopa crema de calabaza",
+    "recipe": "1. Asar calabaza en horno. 2. Saltear cebolla y ajo. 3. Agregar calabaza y caldo. 4. Procesar hasta obtener crema. 5. Condimentar con jengibre y nuez moscada.",
+    "ingredients": ["calabaza", "cebolla", "ajo", "caldo de verduras", "crema de leche", "jengibre", "nuez moscada", "semillas de calabaza"]
+  },
+  {
+    "id": 9,
+    "name": "Polenta con salsa",
+    "recipe": "1. Hervir agua con sal. 2. Agregar polenta en forma de lluvia revolviendo. 3. Cocinar 30 minutos. 4. Preparar salsa de tomate con albahaca. 5. Servir con queso rallado.",
+    "ingredients": ["polenta", "salsa de tomate", "albahaca", "ajo", "queso parmesano", "aceite de oliva", "sal"]
+  },
+  {
+    "id": 10,
+    "name": "Fideos con pesto",
+    "recipe": "1. Hervir fideos al dente. 2. Procesar albahaca, ajo, pinones y parmesano. 3. Agregar aceite de oliva en hilo. 4. Mezclar pasta con pesto.",
+    "ingredients": ["fideos spaghetti", "albahaca fresca", "ajo", "pinones", "queso parmesano", "aceite de oliva", "sal"]
+  },
+  {
+    "id": 11,
+    "name": "Salmon a la plancha con verduras",
+    "recipe": "1. Marinar salmon con limon, ajo y hierbas. 2. Cocinar a la plancha 4 min por lado. 3. Saltear brocoli y zanahoria. 4. Servir con limon.",
+    "ingredients": ["salmon", "limon", "ajo", "brocoli", "zanahoria", "aceite de oliva", "sal", "pimienta", "eneldo"]
+  },
+  {
+    "id": 12,
+    "name": "Ramen vegetariano",
+    "recipe": "1. Preparar caldo con miso y kombu. 2. Cocinar fideos ramen. 3. Saltear vegetales. 4. Armar bowl con fideos, caldo y toppings.",
+    "ingredients": ["fideos ramen", "miso", "tofu", "huevo", "nori", "cebolla de verdeo", "jengibre", "champinones", "pak choi", "salsa de soja"]
+  },
+  {
+    "id": 13,
+    "name": "Pastel de papas",
+    "recipe": "1. Saltear carne picada con cebolla y condimentos. 2. Hervir papas y hacer pure. 3. Poner carne en fuente, cubrir con pure. 4. Gratinar en horno.",
+    "ingredients": ["carne picada", "papa", "cebolla", "huevo duro", "aceitunas", "pimenton", "comino", "leche", "manteca"]
+  },
+  {
+    "id": 14,
+    "name": "Hamburguesas caseras",
+    "recipe": "1. Mezclar carne con cebolla picada, ajo y condimentos. 2. Formar hamburguesas. 3. Cocinar a la plancha. 4. Armar con pan, lechuga, tomate y queso.",
+    "ingredients": ["carne picada", "cebolla", "ajo", "pan de hamburguesa", "lechuga", "tomate", "queso cheddar", "sal", "pimienta"]
+  },
+  {
+    "id": 15,
+    "name": "Ensalada Cesar",
+    "recipe": "1. Preparar aderezo con mayonesa, ajo, anchoas y parmesano. 2. Cortar lechuga romana. 3. Preparar crutones con pan tostado. 4. Mezclar todo.",
+    "ingredients": ["lechuga romana", "pollo", "pan", "queso parmesano", "mayonesa", "ajo", "anchoas", "limon", "aceite de oliva"]
+  },
+  {
+    "id": 16,
+    "name": "Pizza casera",
+    "recipe": "1. Preparar masa con harina, levadura, agua y sal. 2. Dejar leudar 1 hora. 3. Estirar y agregar salsa y mozzarella. 4. Hornear a 220C por 15 minutos.",
+    "ingredients": ["harina", "levadura", "salsa de tomate", "mozzarella", "oregano", "aceite de oliva", "sal", "azucar"]
+  },
+  {
+    "id": 17,
+    "name": "Empanadas de carne",
+    "recipe": "1. Saltear carne picada con cebolla, pimiento y condimentos. 2. Agregar aceitunas y huevo picado. 3. Rellenar tapas y cerrar con repulgue. 4. Hornear 20 minutos.",
+    "ingredients": ["tapas de empanada", "carne picada", "cebolla", "pimiento", "huevo duro", "aceitunas", "comino", "pimenton", "aji molido"]
+  },
+  {
+    "id": 18,
+    "name": "Pollo al horno con ensalada",
+    "recipe": "1. Marinar pollo con limon, ajo y hierbas. 2. Hornear a 200C por 45 minutos. 3. Preparar ensalada mixta con vinagreta.",
+    "ingredients": ["pollo", "limon", "ajo", "romero", "tomillo", "lechuga", "tomate", "pepino", "aceite de oliva", "vinagre"]
+  },
+  {
+    "id": 19,
+    "name": "Milanesas con pure",
+    "recipe": "1. Pasar carne por harina, huevo y pan rallado. 2. Freir hasta dorar. 3. Hervir papas y hacer pure con manteca y leche.",
+    "ingredients": ["carne para milanesa", "huevos", "pan rallado", "harina", "papa", "manteca", "leche", "sal", "aceite"]
+  },
+  {
+    "id": 20,
+    "name": "Arroz salteado con verduras",
+    "recipe": "1. Cocinar arroz y dejar enfriar. 2. Saltear vegetales cortados en cubos. 3. Agregar arroz y salsa de soja. 4. Agregar huevo revuelto.",
+    "ingredients": ["arroz", "zanahoria", "arvejas", "cebolla de verdeo", "pimiento", "huevo", "salsa de soja", "aceite de sesamo", "jengibre"]
+  }
+]
