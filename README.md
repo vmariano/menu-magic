@@ -7,6 +7,7 @@ Menu Magic is a React-based application built with Next.js for planning and rand
 - **Weekly Randomization**: Automatically generates a 5-day menu for both lunch and dinner.
 - **Easy & Complex Lists**: Uses predefined lists for quick lunches (`easy.json`) and more elaborate dinners (`complex.json`).
 - **Individual Reroll**: Use the dice (🎲) button to reroll a single meal without changing the rest of the week.
+- **Dark & Light Theme**: Integrated theme switcher with persistence (`localStorage`) and system preference support.
 - **Responsive Layout**: A clean grid displaying the work week (Monday to Friday).
 
 ## 🛠️ Tech Stack
@@ -18,8 +19,10 @@ Menu Magic is a React-based application built with Next.js for planning and rand
 
 ## 📁 Project Structure
 
-- `app/page.tsx`: Main dashboard with the 5-day grid.
+- `app/page.tsx`: Main dashboard with header, theme toggle, and the 5-day grid.
+- `app/context/ThemeContext.tsx`: Theme state management and persistence.
 - `app/components/`:
+  - `ThemeToggle.tsx`: Theme switcher button component.
   - `MealList.js`: Client component that randomizes 5 meals from a list.
   - `Meal.js`: Client component for a single meal entry with "reroll" logic.
 - `app/data/`:
