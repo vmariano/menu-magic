@@ -1,8 +1,8 @@
 
 
 .mealContainer {
-    font-family: Helvetica, serif;
-    border: solid 1px;
+    font-family: inherit;
+    border: 1px solid var(--card-border);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,23 +10,49 @@
     height: 90px;
     border-radius: 15px;
     align-items: center;
-    background-color: #E9E9E9;
-    padding: 7px;
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    padding: 10px 14px;
     margin-top: 22px;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .mealContainer .mealName {
-
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--foreground);
+    margin: 0 8px;
+    flex: 1;
 }
 
 .mealContainer .draggablePattern {
-    font-family: Helvetica, serif;
-    font-size: 1.5em;
+    font-family: inherit;
+    font-size: 1.25em;
     font-weight: bolder;
-    background-color: #C4C4C4;
-    color: #ffff;
+    background-color: var(--drag-handle-bg);
+    color: var(--drag-handle-color);
+    border-radius: 6px;
+    padding: 2px 6px;
+    user-select: none;
+    transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 .mealContainer button {
     align-self: flex-end;
+    background-color: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.1s ease, border-color 0.25s ease;
+}
+
+.mealContainer button:hover {
+    background-color: var(--btn-hover);
+    transform: scale(1.05);
+}
+
+.mealContainer button:active {
+    transform: scale(0.95);
 }

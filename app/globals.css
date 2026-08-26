@@ -1,8 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --drag-handle-bg: #e2e8f0;
+  --drag-handle-color: #94a3b8;
+  --btn-bg: #f1f5f9;
+  --btn-hover: #e2e8f0;
+  --btn-border: #cbd5e1;
+  --footer-border: #e2e8f0;
+  --subtle-text: #64748b;
+  --logo-filter: none;
+}
+
+[data-theme="dark"] {
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --card-bg: #1e293b;
+  --card-border: #334155;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.35), 0 2px 4px -2px rgb(0 0 0 / 0.25);
+  --drag-handle-bg: #334155;
+  --drag-handle-color: #64748b;
+  --btn-bg: #334155;
+  --btn-hover: #475569;
+  --btn-border: #475569;
+  --footer-border: #334155;
+  --subtle-text: #94a3b8;
+  --logo-filter: invert(1);
 }
 
 @theme inline {
@@ -12,15 +39,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
