@@ -9,8 +9,8 @@ const randomizeMenu = (list) => {
     for (let i = 0; i < daysOfTheWeek; i++) {
         sampleList.push(list[Math.floor(Math.random() * list.length)]);
     }
-    return sampleList.map((meal) => {
-        return (<Meal key={meal.content} list={list}>{meal.content}</Meal>);
+    return sampleList.map((meal, index) => {
+        return (<Meal key={`${meal.id}-${index}`} meal={meal} list={list}>{meal.content}</Meal>);
     });
 }
 

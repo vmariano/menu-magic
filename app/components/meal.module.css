@@ -37,8 +37,39 @@
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-.mealContainer button {
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     align-self: flex-end;
+}
+
+.recipeLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-bg);
+    border: 1px solid var(--btn-border);
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--foreground);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.1s ease, border-color 0.25s ease;
+}
+
+.recipeLink:hover {
+    background-color: var(--btn-hover);
+    transform: scale(1.05);
+}
+
+.recipeLink:active {
+    transform: scale(0.95);
+}
+
+.mealContainer button {
     background-color: var(--btn-bg);
     border: 1px solid var(--btn-border);
     border-radius: 8px;
