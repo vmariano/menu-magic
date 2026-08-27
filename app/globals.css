@@ -11,9 +11,7 @@
   --btn-bg: #f1f5f9;
   --btn-hover: #e2e8f0;
   --btn-border: #cbd5e1;
-  --footer-border: #e2e8f0;
   --subtle-text: #64748b;
-  --logo-filter: none;
 }
 
 [data-theme="dark"] {
@@ -27,9 +25,7 @@
   --btn-bg: #334155;
   --btn-hover: #475569;
   --btn-border: #475569;
-  --footer-border: #334155;
   --subtle-text: #94a3b8;
-  --logo-filter: invert(1);
 }
 
 @theme inline {
