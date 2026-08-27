@@ -33,10 +33,20 @@ Commands are standard for a Next.js project:
 - **Start Production Server**: `npm run start`
 - **Linting**: `npm run lint`
 
-## Development Conventions
-
-- **Component Structure**: Components are located in the `components/` directory and use functional components with React hooks.
-- **Styling**: Styles are organized within the `styles/` directory, specifically using CSS Modules (e.g., `*.module.css`) to prevent global namespace pollution.
-- **Data Management**: Meal lists are stored as static JSON arrays in the `data/` directory. Each meal object has an `id` and `content`.
+- **Component Structure**: Components are located in the `app/components/` directory and use functional components with React hooks.
+- **Styling**: Styles are organized within the `app/styles/` and `app/components/` directories, specifically using CSS Modules (e.g., `*.module.css`) to prevent global namespace pollution.
+- **Data Management**: Meal lists are stored as static JSON arrays in the `app/data/` directory. Each meal object has an `id` and `content`.
 - **Language**: The application UI and data content are primarily in Spanish.
 - **Interactivity**: The randomized menu can be refreshed by rerolling individual meals using the dice (🎲) button on each meal entry.
+
+## Git Workflow Rules
+
+- **Branching Policy**:
+  - Always create a new branch before committing any changes (e.g., `feat/<feature-name>`, `fix/<bug-name>`, `chore/<task-name>`).
+  - Never commit directly to `main`.
+- **Commit Conventions**:
+  - Follow Conventional Commits format (`feat: ...`, `fix: ...`, `refactor: ...`, `style: ...`, `docs: ...`, `chore: ...`).
+  - Write concise, clear commit messages in imperative mood.
+- **Pre-Commit Verification**:
+  - Always run `npm run lint` and `npm run build` to verify code quality and build integrity before committing.
+  - Review `git status` and `git diff` before staging to avoid committing unintended files or temporary artifacts.
