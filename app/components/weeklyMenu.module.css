@@ -1,0 +1,118 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daySelector {
+  display: none;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 1.25rem;
+  padding: 4px;
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  border-radius: 14px;
+  gap: 4px;
+  box-sizing: border-box;
+}
+
+.dayTab {
+  flex: 1;
+  min-height: 40px;
+  padding: 6px 8px;
+  border: none;
+  background: transparent;
+  color: var(--subtle-text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.dayTab:hover {
+  color: var(--foreground);
+  background-color: var(--btn-hover);
+}
+
+.activeDayTab {
+  background-color: var(--card-bg) !important;
+  color: var(--foreground) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.daysColumn {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.dayHeader {
+  width: 120px;
+  height: 90px;
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--foreground);
+  box-sizing: border-box;
+}
+
+.dayHeaderSpacer {
+  height: 38px;
+  margin: 0;
+}
+
+.listsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 740px;
+}
+
+@media (max-width: 768px) {
+  .daySelector {
+    display: flex;
+  }
+
+  .daysColumn {
+    display: none;
+  }
+
+  .board {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .listsWrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .dayTab {
+    padding: 6px 4px;
+    font-size: 0.8rem;
+  }
+}

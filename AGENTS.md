@@ -35,8 +35,39 @@ Commands are standard for a Next.js project:
 
 ## Development Conventions
 
-- **Component Structure**: Components are located in the `components/` directory and use functional components with React hooks.
-- **Styling**: Styles are organized within the `styles/` directory, specifically using CSS Modules (e.g., `*.module.css`) to prevent global namespace pollution.
-- **Data Management**: Meal lists are stored as static JSON arrays in the `data/` directory. Each meal object has an `id` and `content`.
+- **Component Structure**: Components are located in the `app/components/` directory and use functional components with React hooks.
+- **Styling**: Styles are organized within the `app/styles/` and `app/components/` directories, specifically using CSS Modules (e.g., `*.module.css`) to prevent global namespace pollution.
+- **Data Management**: Meal lists are stored as static JSON arrays in the `app/data/` directory. Each meal object has an `id` and `content`.
 - **Language**: The application UI and data content are primarily in Spanish.
 - **Interactivity**: The randomized menu can be refreshed by rerolling individual meals using the dice (🎲) button on each meal entry.
+
+## Allowed & Approved Command List
+
+The following commands and command prefixes are approved for automated project execution:
+
+- **Build & Quality Assurance (`npm`)**:
+  - `npm run dev`
+  - `npm run build`
+  - `npm run start`
+  - `npm run lint`
+  - `npm test`
+- **Version Control (`git`)**:
+  - `git status`
+  - `git diff`
+  - `git add <files>`
+  - `git commit -m "<message>"`
+  - `git checkout -b <branch>` / `git checkout <branch>`
+  - `git branch`
+  - `git log`
+
+## Git Workflow Rules
+
+- **Branching Policy**:
+  - Always create a new branch before committing any changes (e.g., `feat/<feature-name>`, `fix/<bug-name>`, `chore/<task-name>`).
+  - Never commit directly to `main`.
+- **Commit Conventions**:
+  - Follow Conventional Commits format (`feat: ...`, `fix: ...`, `refactor: ...`, `style: ...`, `docs: ...`, `chore: ...`).
+  - Write concise, clear commit messages in imperative mood.
+- **Pre-Commit Verification**:
+  - Always run `npm run lint` and `npm run build` to verify code quality and build integrity before committing.
+  - Review `git status` and `git diff` before staging to avoid committing unintended files or temporary artifacts.
