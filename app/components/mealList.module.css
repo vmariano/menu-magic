@@ -1,13 +1,35 @@
 .mealList {
-    margin-left: 15px;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.mealList h1 {
-    height: 38px;
-    display: flex;
-    align-items: center;
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--foreground);
-    margin: 0;
+.title {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin: 0;
+}
+
+.itemsWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mealList {
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.15rem;
+    height: 32px;
+    margin-bottom: 2px;
+  }
 }

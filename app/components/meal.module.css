@@ -1,58 +1,128 @@
-
-
 .mealContainer {
-    font-family: inherit;
-    border: 1px solid var(--card-border);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 350px;
-    height: 90px;
-    border-radius: 15px;
-    align-items: center;
-    background-color: var(--card-bg);
-    box-shadow: var(--card-shadow);
-    padding: 10px 14px;
-    margin-top: 22px;
-    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  font-family: inherit;
+  border: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  min-height: 90px;
+  border-radius: 15px;
+  background-color: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  padding: 12px 14px;
+  margin-top: 22px;
+  box-sizing: border-box;
+  gap: 0.75rem;
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
 }
 
-.mealContainer .mealName {
-    font-weight: 500;
-    font-size: 0.95rem;
-    color: var(--foreground);
-    margin: 0 8px;
-    flex: 1;
+.dragHandle {
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--drag-handle-bg);
+  color: var(--drag-handle-color);
+  border-radius: 8px;
+  padding: 4px 6px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  user-select: none;
+  flex-shrink: 0;
+  transition: background-color 0.25s ease, color 0.25s ease;
 }
 
-.mealContainer .draggablePattern {
-    font-family: inherit;
-    font-size: 1.25em;
-    font-weight: bolder;
-    background-color: var(--drag-handle-bg);
-    color: var(--drag-handle-color);
-    border-radius: 6px;
-    padding: 2px 6px;
-    user-select: none;
-    transition: background-color 0.25s ease, color 0.25s ease;
+.handleDots {
+  letter-spacing: -1px;
 }
 
-.mealContainer button {
-    align-self: flex-end;
-    background-color: var(--btn-bg);
-    border: 1px solid var(--btn-border);
-    border-radius: 8px;
-    padding: 4px 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.15s ease, transform 0.1s ease, border-color 0.25s ease;
+.mealContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0;
+  gap: 0.25rem;
 }
 
-.mealContainer button:hover {
-    background-color: var(--btn-hover);
-    transform: scale(1.05);
+.dayBadge {
+  display: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text);
+  background-color: var(--btn-bg);
+  padding: 2px 8px;
+  border-radius: 9999px;
+  border: 1px solid var(--card-border);
+  width: fit-content;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.mealContainer button:active {
-    transform: scale(0.95);
+.mealTypeSubBadge {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.mealName {
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--foreground);
+  margin: 0;
+  line-height: 1.35;
+  word-break: break-word;
+}
+
+.rerollBtn {
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  border-radius: 12px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.15s ease, transform 0.1s ease, border-color 0.25s ease, box-shadow 0.15s ease;
+}
+
+.rerollBtn:hover {
+  background-color: var(--btn-hover);
+  transform: scale(1.06);
+}
+
+.rerollBtn:active {
+  transform: scale(0.92);
+}
+
+.diceIcon {
+  line-height: 1;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .mealContainer {
+    max-width: 100%;
+    margin-top: 12px;
+    padding: 10px 12px;
+    min-height: 80px;
+  }
+
+  .dayBadge {
+    display: inline-flex;
+  }
+
+  .mealName {
+    font-size: 0.925rem;
+  }
 }
